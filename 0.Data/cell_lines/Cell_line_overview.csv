@@ -1,0 +1,97 @@
+﻿Syndrome,Gene,Cell_line_name,Identidy,Own_control,Remove,isogenic,Remarks,Pool_Kleefstra,Pool_WTC_CHD2,Pool_CACNA1A,Pool_SMARCB1,Pool_ARID1B_2_rescue,Pool_dravet
+SETD1A,SETD1A,SETD1A_Clone 1,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+SETD1A,SETD1A,SETD1A_Clone 2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+SETD1A,SETD1A,SETD1A_Clone2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+SETD1A,SETD1A,SETD1A_clone2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+SETD1A,SETD1A,SETD1A_clone 1,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+SETD1A,SETD1A,SETD1A_clone 2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+NANS,NANS,122,Patient,WTC,,,,NA,NA,NA,NA,NA,NA
+NANS,NANS,123,Patient,WTC,,,,NA,NA,NA,NA,NA,NA
+NANS,NANS,124,Patient,WTC,,,,NA,NA,NA,NA,NA,NA
+MELAS,MT-TL1,Mito_A61,Patient,Mito_A57,,yes,MELAS_HH2,NA,NA,NA,NA,NA,NA
+MELAS,MT-TL1,DB5,Patient,DB7,,yes,MELAS_HH3,NA,NA,NA,NA,NA,NA
+MELAS,MT-TL1,C1,Patient,C5,,yes,MELAS_HH1,NA,NA,NA,NA,NA,NA
+KSS,SMARCB1,SMARCB1_KSS,Patient,WTC/IPS23-123,,,,NA,NA,NA,NA,NA,NA
+Kleefstra,EHMT1,EHMT_CR,CRISPR,EHMT1_WT,,yes,,NA,NA,NA,NA,NA,NA
+Kleefstra,EHMT1,EHMT1_CR,CRISPR,EHMT1_WT,,yes,,NA,NA,NA,NA,NA,NA
+Kleefstra,EHMT1,Willem_KS,Patient,Clone 8/WTC_mLam/29.3/WTC,,,should we change these ones to pool kleefstra?,NA,NA,NA,NA,NA,NA
+Kleefstra,EHMT1,Silvia_KS,Patient,Clone 8/WTC_mLam/29.3/WTC,,,should we change these ones to pool kleefstra?,NA,NA,NA,NA,NA,NA
+Kleefstra,EHMT1,Clone12_KS,Patient,Clone 8/WTC_mLam/29.3/WTC,,,should we change these ones to pool kleefstra?,NA,NA,NA,NA,NA,NA
+KdVS,KANSL1,KdVS_CRISPR,CRISPR,CTR_77,,yes,,NA,NA,NA,NA,NA,NA
+KdVS,KANSL1,KdVS_76,Patient,WTC/409B2,,,,NA,NA,NA,NA,NA,NA
+KdVS,KANSL1,KdVS_70,Patient,WTC/409B2,,,,NA,NA,NA,NA,NA,NA
+KdVS,KANSL1,KdVS_71,Patient,WTC/409B2,,,,NA,NA,NA,NA,NA,NA
+KdVS,KANSL1,KdVS_67,Patient,WTC/409B2,,,,NA,NA,NA,NA,NA,NA
+HvdA,ADNP,ADNP_CR,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+GEFS+,SCN1A,PAT001_GEFS,Patient,WTC/114_CTRL2,,,,NA,NA,NA,NA,NA,NA
+GEFS+,SCN1A,FAM001_GEFS,Patient,WTC/114_CTRL2,,,,NA,NA,NA,NA,NA,NA
+GdV,YY1,YY1_CR,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Dravet,SCN1A,SCN1A,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Dravet,SCN1A,SCN1A_clone3,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Dravet,SCN1A,SCN1A_clone7,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Dravet,SCN1A,FAM001_FS,Patient,WTC/114_CTRL2,,,,NA,NA,NA,NA,NA,NA
+Dravet,SCN1A,PAT001_DRAV,Patient,WTC/114_CTRL2,,,,NA,NA,NA,NA,NA,NA
+Dravet,SCN1A,FAM001_DRAV,Patient,WTC/114_CTRL2,,,,NA,NA,NA,NA,NA,NA
+CSS,ARID1B,ARID1B_CR,CRISPR,WTC,yes,yes,,NA,NA,NA,NA,NA,NA
+CSS,ARID1B,ARID1B_3,Patient,WTC/ARID1B_2_rescue,,,,NA,NA,NA,NA,NA,NA
+CSS,ARID1B,ARID1B_2,Patient,ARID1B_2_rescue,,yes,,NA,NA,NA,NA,NA,NA
+CSS,SMARCB1,SMARCB1_CSS,Patient,WTC/IPS23-123,,,,NA,NA,NA,NA,NA,NA
+Control,Control,IPS23-123,Control,,,yes,,NA,NA,NA,WTC/IPS23-123,NA,NA
+Control,Control,ARID1B_2_rescue,Control,,,yes,,NA,NA,NA,NA,WTC/ARID1B_2_rescue,NA
+Control,Control,409B2,Control,,,yes,,NA,WTC/409B2,NA,NA,NA,NA
+Control,Control,EHMT1_WT,Control,,,yes,I have change Clone 8/WTC_mLam/29.3 to NA,NA,NA,NA,NA,NA,NA
+Control,Control,Mito_A57,Control,,,yes,MELAS_LH2,NA,NA,NA,NA,NA,NA
+Control,Control,Mito_C234,Control,,,yes,,NA,NA,NA,NA,NA,NA
+Control,Control,DB7,Control,,,yes,MELAS_LH3,NA,NA,NA,NA,NA,NA
+Control,Control,C5,Control,,,yes,MELAS_LH1,NA,NA,NA,NA,NA,NA
+Control,Control,114_CTRL2,Control,,,yes,,NA,NA,NA,NA,NA,WTC/114_CTRL2
+Control,Control,WTC,Control,,,yes,,Clone 8/WTC_mLam/29.3/WTC,WTC/409B2,WTC/CACNA1A_PAT2_rescue,WTC/IPS23-123,WTC/ARID1B_2_rescue,WTC/114_CTRL2
+Control,Control,WTC_mLam,Control,,,yes,mouse laminin coating,Clone 8/WTC_mLam/29.3/WTC,NA,NA,NA,NA,NA
+Control,Control,CTR_77,Control,,,yes,KdVS_control,NA,NA,NA,NA,NA,NA
+Control,Control,29.3,Control,,,yes,,Clone 8/WTC_mLam/29.3/WTC,NA,NA,NA,NA,NA
+Control,Control,Clone 8,Control,,,yes,,Clone 8/WTC_mLam/29.3/WTC,NA,NA,NA,NA,NA
+Control,Control,CHD8_CTR,Control,,,yes,CHD8_control,NA,NA,NA,NA,NA,NA
+Control,Control,CACNA1A_PAT2_rescue,Control,,,yes,,NA,NA,WTC/CACNA1A_PAT2_rescue,NA,NA,NA
+Chimp,CHD2,Chimp,Chimp,WTC/409B2,yes,,,NA,NA,NA,NA,NA,NA
+CHD8_ASD,CHD8,CHD8_C3,CRISPR,CHD8_CTR,,yes,,NA,NA,NA,NA,NA,NA
+CHD8_ASD,CHD8,CHD8_S62X,CRISPR,CHD8_CTR,,yes,,NA,NA,NA,NA,NA,NA
+CHD2_encephalopathy,CHD2,CHD2_KO,CRISPR,WTC,yes,yes,,NA,NA,NA,NA,NA,NA
+CHD2_encephalopathy,CHD2,CHD2_het,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+CHD2_encephalopathy,CHD2,CHD2_CR_409B,CRISPR,409B2,yes,yes,,NA,NA,NA,NA,NA,NA
+CHD2_encephalopathy,CHD2,CHD2_PAT003,Patient,WTC/409B2,,,,NA,NA,NA,NA,NA,NA
+CHD2_encephalopathy,CHD2,CHD2_PAT002,Patient,WTC/409B2,,,,NA,NA,NA,NA,NA,NA
+Chaserr,Chaserr,ChaserrKO,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Cerebral_Ataxia,CACNA1A,CACNA1A_clone 1,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Cerebral_Ataxia,CACNA1A,CACNA1A_clone 2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Cerebral_Ataxia,CACNA1A,CACNA1A_PAT1,Patient,WTC/CACNA1A_PAT2_rescue,,,,NA,NA,NA,NA,NA,NA
+Cerebral_Ataxia,CACNA1A,CACNA1A_PAT2,Patient,CACNA1A_PAT2_rescue,,yes,,NA,NA,NA,NA,NA,NA
+Archaic_CHD2,CHD2,Archaic_409B2,CRISPR,409B2,yes,yes,,NA,NA,NA,NA,NA,NA
+Archaic_CHD2,CHD2,Archaic_WTC_cl9,CRISPR,WTC,yes,yes,,NA,NA,NA,NA,NA,NA
+Archaic_CHD2,CHD2,Archaic_WTC_cl5,CRISPR,WTC,yes,yes,,NA,NA,NA,NA,NA,NA
+ANK2_epilepsy,ANK2,ANK2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+Control_drug,Control,DMSO,Control,,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Clopidogrel[1µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Devazepide[2.5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Triciribine[0.5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Clofibricacid[5nM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,EpothiloneB[5nM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,Flubendazol[0.5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,CytochalastinD[1µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,AZD-2014[50nM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,VinblastineSulfate[5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,Coluracetam[5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Clopidogrel[10µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Devazepide[5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Triciribine[1µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,Clofibricacid[10nM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+HvdA_drug,NO,EpothiloneB[10nM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,Flubendazol[1µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,CytochalastinD[2.5µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,AZD-2014[100nM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,VinblastineSulfate[10µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+GdV_drug,NO,Coluracetam[10µM],Drug,DMSO,,yes,,NA,NA,NA,NA,NA,NA
+CSS,ARID1B,ARID1B_CRISPR_1,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+CSS,ARID1B,ARID1B_CRISPR_2,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+CSS,ARID1B,ARID1B_CRISPR_3,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+CSS,SMARCB1,SMARCB1_CSS-CRISPR,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA
+KSS,SMARCB1,SMARCB1_KSS-CRISPR,CRISPR,WTC,,yes,,NA,NA,NA,NA,NA,NA

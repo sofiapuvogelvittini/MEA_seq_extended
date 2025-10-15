@@ -1,0 +1,62 @@
+,Phenotype,Syndrome,cell_line,cell_line_v2,cell_line_v3,gene_group,Syndrome_v2,order
+1,114_CTRL2,Control,CTR_1,CTR_1,CTR_1,control,control,CTR_1
+2,122,NANS,NANS_1,NANS_1,NANS_1,Neurometabolic,SAE,CTR_2
+3,123,NANS,NANS_2,NANS_2,NANS_2,Neurometabolic,SAE,CTR_3
+4,124,NANS,NANS_3,NANS_3,NANS_3,Neurometabolic,SAE,CTR_4
+5,WTC,Control,CTR_2,CTR_2,CTR_2,control,control,CTR_5
+6,ARID1B_2_rescue,Control,CTR_3,CTR_3,CTR_3,control,control,CTR_6
+7,ARID1B_2,CSS,CSS_ARID1B_1,ARID1B_1,ARID1B_1,Chromatinopathy,CSS,CTR_7
+8,ARID1B_CRISPR_3,CSS,CSS_ARID1B_CR3,ARID1B_5,ARID1B_5,Chromatinopathy,CSS,CTR_8
+9,ARID1B_CRISPR_1,CSS,CSS_ARID1B_CR1,ARID1B_3,ARID1B_3,Chromatinopathy,CSS,CTR_9
+10,ARID1B_CRISPR_2,CSS,CSS_ARID1B_CR2,ARID1B_4,ARID1B_4,Chromatinopathy,CSS,CTR_10
+11,SMARCB1_CSS-CRISPR,CSS,CSS_SMARCB1_CR1,SMARCB1_2,SMARCB1_2,Chromatinopathy,CSS,CTR_11
+12,SMARCB1_KSS-CRISPR,KSS,KSS_SMARCB1_CR1,SMARCB1_2_KSS,SMARCB1_2_KSS,Chromatinopathy,KSS,CTR_12
+13,IPS23-123,Control,CTR_4,CTR_4,CTR_4,control,control,CTR_13
+14,SMARCB1_CSS,CSS,CSS_SMARCB1_1,SMARCB1_1,SMARCB1_1,Chromatinopathy,CSS,CTR_14
+15,SMARCB1_KSS,KSS,KSS_SMARCB1_1,SMARCB1_1_KSS,SMARCB1_1_KSS,Chromatinopathy,KSS,CTR_15
+16,ARID1B_3,CSS,CSS_ARID1B_2,ARID1B_2,ARID1B_2,Chromatinopathy,CSS,CTR_16
+17,29.3,Control,CTR_5,CTR_5,CTR_5,control,control,ANK2_1
+18,409B2,Control,CTR_6,CTR_6,CTR_6,control,control,CACNA1A_1
+19,ANK2,ANK2_epilepsy,ANK2_CR1,ANK2_1,ANK2_1,Channelopathy,Epilepsy,CACNA1A_2
+20,C1,MELAS,MELAS_1,MT-TL1_1,MT-TL1_1,Neurometabolic,MELAS,CACNA1A_3
+21,C5,Control,CTR_7,CTR_7,CTR_7,control,control,CACNA1A_4
+22,CACNA1A_PAT2_rescue,Control,CTR_8,CTR_8,CTR_8,control,control,SCN1A_1_Drav
+23,CACNA1A_clone 1,Cerebral_Ataxia,CACNA1A_CR1,CACNA1A_3,CACNA1A_3,Channelopathy,Ataxia,SCN1A_2_Drav
+24,CACNA1A_PAT2,Cerebral_Ataxia,CACNA1A_2,CACNA1A_2,CACNA1A_2,Channelopathy,Ataxia,SCN1A_3_Drav
+25,CACNA1A_clone 2,Cerebral_Ataxia,CACNA1A_CR2,CACNA1A_4,CACNA1A_4,Channelopathy,Ataxia,SCN1A_4_Drav
+26,CHD2_het,CHD2_encephalopathy,CHD2_CR1,CHD2_3,CHD2_3,Chromatinopathy,Encephalopathy,SCN1A_1_GEFS
+27,CHD2_PAT003,CHD2_encephalopathy,CHD2_2,CHD2_2,CHD2_2,Chromatinopathy,Encephalopathy,SCN1A_2_GEFS
+28,Clone 8,Control,CTR_9,CTR_9,CTR_9,control,control,SCN1A_1_FS
+29,Clone12_KS,Kleefstra,KS_1,EHMT1_1_KS,EHMT1_1_KS,Chromatinopathy,KS,YY1_1
+30,CTR_77,Control,CTR_10,CTR_10,CTR_10,control,control,ADNP_1
+31,DB5,MELAS,MELAS_2,MT-TL1_2,MT-TL1_2,Neurometabolic,MELAS,KANSL1_1
+32,DB7,Control,CTR_11,CTR_11,CTR_11,control,control,KANSL1_2
+33,EHMT1_CR,Kleefstra,KS_CR1,EHMT1_4_KS,EHMT1_4_KS,Chromatinopathy,KS,KANSL1_3
+34,EHMT1_WT,Control,CTR_12,CTR_12,CTR_12,control,control,KANSL1_4
+35,FAM001_DRAV,Dravet,Dravet_1,SCN1A_1_Drav,SCN1A_1_Drav,Channelopathy,Dravet,KANSL1_5
+36,FAM001_FS,Dravet,FS_1,SCN1A_1_FS,SCN1A_1_FS,Channelopathy,F.Seizures,SETD1A_1
+37,FAM001_GEFS,GEFS+,GEFS_1,SCN1A_1_GEFS,SCN1A_1_GEFS,Channelopathy,GEFS,SETD1A_2
+38,KdVS_67,KdVS,KdVS_1,KANSL1_1,KANSL1_1,Chromatinopathy,KdVS,CHD2_1
+39,KdVS_70,KdVS,KdVS_2,KANSL1_2,KANSL1_2,Chromatinopathy,KdVS,CHD2_2
+40,KdVS_71,KdVS,KdVS_3,KANSL1_3,KANSL1_3,Chromatinopathy,KdVS,CHD2_3
+41,KdVS_76,KdVS,KdVS_4,KANSL1_4,KANSL1_4,Chromatinopathy,KdVS,CHD8_1
+42,KdVS_CRISPR,KdVS,KdVS_CR1,KANSL1_5,KANSL1_5,Chromatinopathy,KdVS,CHD8_2
+43,Mito_A57,Control,CTR_13,CTR_13,CTR_13,control,control,ARID1B_1
+44,Mito_A61,MELAS,MELAS_3,MT-TL1_3,MT-TL1_3,Neurometabolic,MELAS,ARID1B_2
+45,Mito_C234,Control,CTR_14,CTR_14,CTR_14,control,control,ARID1B_3
+46,PAT001_DRAV,Dravet,Dravet_2,SCN1A_2_Drav,SCN1A_2_Drav,Channelopathy,Dravet,ARID1B_4
+47,PAT001_GEFS,GEFS+,GEFS_2,SCN1A_2_GEFS,SCN1A_2_GEFS,Channelopathy,GEFS,ARID1B_5
+48,SCN1A_clone3,Dravet,Dravet_CR1,SCN1A_3_Drav,SCN1A_3_Drav,Channelopathy,Dravet,SMARCB1_1
+49,SCN1A_clone7,Dravet,Dravet_CR2,SCN1A_4_Drav,SCN1A_4_Drav,Channelopathy,Dravet,SMARCB1_2
+50,SETD1A_clone 1,SETD1A,SETD1A_CR1,SETD1A_1,SETD1A_1,Chromatinopathy,SZ.Epilepsy,SMARCB1_1_KSS
+51,SETD1A_clone 2,SETD1A,SETD1A_CR2,SETD1A_2,SETD1A_2,Chromatinopathy,SZ.Epilepsy,SMARCB1_2_KSS
+52,Silvia_KS,Kleefstra,KS_2,EHMT1_2_KS,EHMT1_2_KS,Chromatinopathy,KS,EHMT1_1_KS
+53,Willem_KS,Kleefstra,KS_3,EHMT1_3_KS,EHMT1_3_KS,Chromatinopathy,KS,EHMT1_2_KS
+54,ADNP_CR,HvdA,HvdA_CR1,ADNP_1,ADNP_1,Chromatinopathy,HvdA,EHMT1_3_KS
+55,CHD8_CTR,Control,CTR_15,CTR_15,CTR_15,control,control,EHMT1_4_KS
+56,YY1_CR,GdV,GdV_CR1,YY1_1,YY1_1,Chromatinopathy,GdV,NANS_1
+57,CHD8_C3,CHD8_ASD,CHD8_CR1,CHD8_1,CHD8_1,Chromatinopathy,Autism,NANS_2
+58,CHD8_S62X,CHD8_ASD,CHD8_CR2,CHD8_2,CHD8_2,Chromatinopathy,Autism,NANS_3
+59,CACNA1A_PAT1,Cerebral_Ataxia,CACNA1A_1,CACNA1A_1,CACNA1A_1,Channelopathy,Ataxia,MT-TL1_1
+60,WTC_mLam,Control,CTR_16,CTR_16,CTR_16,control,control,MT-TL1_2
+61,CHD2_PAT002,CHD2_encephalopathy,CHD2_1,CHD2_1,CHD2_1,Chromatinopathy,Encephalopathy,MT-TL1_3
