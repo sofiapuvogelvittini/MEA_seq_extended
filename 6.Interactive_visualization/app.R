@@ -122,7 +122,7 @@ server <- function(input, output, session) {
     cell_colors <- setNames(color_map$color, color_map$cell_line)
    
     ggplot(data, aes(x = mea, y = gene)) +
-      geom_point(aes(fill = cell_line),shape = 21,size = 4, color = "black") +             # bigger black dots
+      geom_point(aes(fill = cell_line),shape = 21,size = 5, color = "black") +             # bigger black dots
      geom_smooth(method = "lm", col = "black", linetype = "dashed", se = FALSE, inherit.aes = FALSE,
                 aes(x = mea, y = gene)) +  # regression line across all data
       scale_fill_manual(values = cell_colors, name = "Cell line") +  
