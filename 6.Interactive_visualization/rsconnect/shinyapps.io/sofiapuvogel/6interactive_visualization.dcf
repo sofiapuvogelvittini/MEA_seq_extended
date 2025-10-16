@@ -5,6 +5,6 @@ account: sofiapuvogel
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15771421
-bundleId: 11040878
+bundleId: 11040919
 url: https://sofiapuvogel.shinyapps.io/6interactive_visualization/
 version: 1

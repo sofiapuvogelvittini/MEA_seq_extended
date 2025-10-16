@@ -71,7 +71,7 @@ mea_names <- colnames(df_merged)[mea_cols]
 # Shiny UI
 # ----------------------------
 ui <- fluidPage(
-  titlePanel("Gene vs MEA Variable Scatter Plot"),
+  titlePanel("Normalized gene expression vs activity"),
   
   sidebarLayout(
     sidebarPanel(
@@ -81,6 +81,7 @@ ui <- fluidPage(
     
     mainPanel(
       plotOutput("scatterPlot"),
+      verbatimTextOutput("corrMsg"),
       verbatimTextOutput("warningMsg")
     )
   )
@@ -109,11 +110,19 @@ server <- function(input, output, session) {
     if(is.null(data)) return(NULL)
     
     ggplot(data, aes(x = mea, y = gene)) +
-      geom_point(color = "blue") +
-      geom_smooth(method = "lm", col = "red", se = FALSE) +
+      geom_point(color = "black", size = 4) +             # bigger black dots
+      geom_smooth(method = "lm", col = "red", linetype = "dashed", se = FALSE) +  # dashed regression line
       xlab(paste0("MEA variable: ", input$mea_var)) +
       ylab(paste0("Gene: ", input$gene)) +
       theme_minimal()
+  })
+  
+  output$corrMsg <- renderPrint({
+    data <- selected_data()
+    if(is.null(data)) return(NULL)
+    
+    cor_test <- cor.test(data$gene, data$mea, method = "spearman")
+    cat(sprintf("Spearman correlation: %.3f, p-value: %.3g", cor_test$estimate, cor_test$p.value))
   })
   
   output$warningMsg <- renderPrint({
