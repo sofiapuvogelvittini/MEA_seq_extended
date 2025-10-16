@@ -60,13 +60,16 @@ df_activity_numeric$sample_id <- df_activity$sample_id
 # ----------------------------
 # Merge counts and activity
 # ----------------------------
-df_merged <- inner_join(df_counts_t, df_activity_numeric, by = "sample_id")
+df_merged <- inner_join(df_counts_t, df_activity, by = "sample_id")
 
 # MEA variable names
-n_activity <- ncol(df_activity_numeric) - 1
-mea_cols <- (ncol(df_merged) - n_activity + 1):ncol(df_merged)
-mea_names <- colnames(df_merged)[mea_cols]
-
+#n_activity <- ncol(df_activity_numeric) - 1
+#mea_cols <- (ncol(df_merged) - n_activity + 1):ncol(df_merged)
+#mea_names <- colnames(df_merged)[mea_cols]
+# Identify MEA variable names correctly (numeric columns only)
+mea_names <- df_activity %>%
+  select(where(is.numeric)) %>%
+  colnames()
 # ----------------------------
 # Shiny UI
 # ----------------------------
@@ -101,20 +104,36 @@ server <- function(input, output, session) {
     
     data.frame(
       gene = df_merged[[gene]],
-      mea = df_merged[[mea]]
+      mea = df_merged[[mea]],
+     cell_line  = factor(df_merged$cell_line, levels=c("ADNP_1","YY1_1",
+							"EHMT1_4_KS","ARID1B_3",
+							"SMARCB1_1","SMARCB1_2",
+							"SMARCB1_1_KSS","SMARCB1_2_KSS","CHD8_1")),   
+     color = df_merged$color   # color per sample
     )
   })
   
   output$scatterPlot <- renderPlot({
     data <- selected_data()
     if(is.null(data)) return(NULL)
-    
+ 
+  # Create a mapping between Gene and color (unique pairs)
+    color_map <- unique(data[, c("cell_line", "color")])
+    cell_colors <- setNames(color_map$color, color_map$cell_line)
+   
     ggplot(data, aes(x = mea, y = gene)) +
-      geom_point(color = "black", size = 4) +             # bigger black dots
-      geom_smooth(method = "lm", col = "red", linetype = "dashed", se = FALSE) +  # dashed regression line
+      geom_point(aes(fill = cell_line),shape = 21,size = 4, color = "black") +             # bigger black dots
+     geom_smooth(method = "lm", col = "black", linetype = "dashed", se = FALSE, inherit.aes = FALSE,
+                aes(x = mea, y = gene)) +  # regression line across all data
+      scale_fill_manual(values = cell_colors, name = "Cell line") +  
       xlab(paste0("MEA variable: ", input$mea_var)) +
       ylab(paste0("Gene: ", input$gene)) +
-      theme_minimal()
+      theme_minimal(base_size = 14) +
+      theme(
+       legend.title = element_text(size = 13, face = "bold"),
+       legend.text = element_text(size = 11),
+       legend.position = "right"
+    )
   })
   
   output$corrMsg <- renderPrint({
