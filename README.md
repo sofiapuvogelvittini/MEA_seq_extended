@@ -6,4 +6,4 @@ It provides a Shiny app that allows users to explore relationships between gene 
 
 You can explore the live app here:
 
-[Explore MEA-seq correlations](https://sofiapuvogel.shinyapps.io/6interactive_visualization/)
+[Explore MEA-seq correlations](https://nadifkasrilab.shinyapps.io/MEA-seq-visualizer/)
