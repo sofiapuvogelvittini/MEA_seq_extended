@@ -1,0 +1,26 @@
+# ---- Large data files: keep out of git ----
+0.Data/*
+
+# The live Shiny app (6.Interactive_visualization/app.R) downloads these two
+# files from raw.githubusercontent.com on master, so they must stay tracked.
+# Un-ignore each parent directory in turn (git cannot re-include a file whose
+# parent directory is excluded).
+!0.Data/RNAseq_data/
+0.Data/RNAseq_data/*
+!0.Data/RNAseq_data/control_normalized_neuronal_counts/
+0.Data/RNAseq_data/control_normalized_neuronal_counts/*
+!0.Data/RNAseq_data/control_normalized_neuronal_counts/PRPS_voom_norm_control.txt
+
+!0.Data/MEA_data/
+0.Data/MEA_data/*
+!0.Data/MEA_data/Processed/
+0.Data/MEA_data/Processed/*
+!0.Data/MEA_data/Processed/mutants_normalized/
+0.Data/MEA_data/Processed/mutants_normalized/*
+!0.Data/MEA_data/Processed/mutants_normalized/patients_normalized_hier_PC13.csv
+
+# ---- Jupyter auto-saved checkpoints ----
+.ipynb_checkpoints/
+
+# ---- Full-history backup bundles ----
+*.bundle

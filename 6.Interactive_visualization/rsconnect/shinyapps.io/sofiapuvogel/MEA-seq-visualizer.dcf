@@ -1,0 +1,10 @@
+name: MEA-seq-visualizer
+title:
+username: sofiapuvogel
+account: sofiapuvogel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16137133
+bundleId: 11212848
+url: https://sofiapuvogel.shinyapps.io/MEA-seq-visualizer/
+version: 1

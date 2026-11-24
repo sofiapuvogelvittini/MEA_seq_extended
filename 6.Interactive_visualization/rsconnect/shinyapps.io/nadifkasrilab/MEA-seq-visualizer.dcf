@@ -1,0 +1,10 @@
+name: MEA-seq-visualizer
+title:
+username: nadifkasrilab
+account: nadifkasrilab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16137400
+bundleId: 11212982
+url: https://nadifkasrilab.shinyapps.io/MEA-seq-visualizer/
+version: 1
